@@ -28,8 +28,6 @@ public class SplitArrayEqually {
             rsum += arr[si]; 
             return splitArray(arr,si+1,lsum,rsum);
         }else{
-//        	lsum = lsum+arr[si];
-//        	rsum = rsum+arr[si];
             return splitArray(arr,si+1, lsum+arr[si], rsum)  || splitArray(arr,si+1,lsum,rsum+arr[si]);
         }
          
