@@ -25,6 +25,7 @@ public class doesSContainsT {
 		String s = "kunal";
 		String t = "kur";
 		System.out.println(checkSequence(s,t));
+		System.out.println("KUNAL");
 
 	}
 
